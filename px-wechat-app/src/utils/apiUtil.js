@@ -4,7 +4,7 @@
  */
 //封装httpApi
 import request from './httpUtil'
-const host = "https://h5api.zhefengle.cn"
+const host = "https://h5api.xxxxx.com"
 const api = {
   // test地址
   authorList:() => request.get(`${host}/index/list_author_recommend.html`)
